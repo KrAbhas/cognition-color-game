@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="curved upper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="rgb(169, 170, 167)" fill-opacity="1"
+                d="M0,32L80,26.7C160,21,320,11,480,21.3C640,32,800,64,960,101.3C1120,139,1280,181,1360,202.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <div class="curved">
+        <div class="info">
+            <div class="color">Color</div>
+            <h1 id = "score">Score: 0</h1>
+            <form action="">
+                <div class="select">
+                    <button type="button" class="press" onclick="incrementValue(this)" value="red">R</button>
+                    <button type="button" class="press" onclick="incrementValue(this)" value="blue">B</button>
+                    <button type="button" class="press" onclick="incrementValue(this)" value="green">G</button>
+                </div>
+            </form>
+            <h1 id="time">Time: </h1>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,32L80,26.7C160,21,320,11,480,21.3C640,32,800,64,960,101.3C1120,139,1280,181,1360,202.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
